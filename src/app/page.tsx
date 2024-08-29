@@ -69,16 +69,14 @@ export default function Home() {
         minHeight: "100vh",
       }}
     >
-      <ThemeContext.Provider
-        value={{ theme, toggleTheme, setDarkTheme, setLightTheme }}
-      >
+      <ThemeContext.Provider value={{ theme, toggleTheme, setDarkTheme, setLightTheme }}>
         <LangContext.Provider value={{ lang, toggleLang }}>
           <Header />
           <Detail />
           <Controller />
         </LangContext.Provider>
       </ThemeContext.Provider>
-      <Footer year="2023" fullName="Chayanin Suatap" studentId="660610999" />
+      <Footer year="2024" fullName="Pornpailin Jaowatthanaphong" studentId="660610777" />
     </div>
   );
 }
